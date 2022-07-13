@@ -1,0 +1,141 @@
+.manage{
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+.manage__list{
+  list-style: none; 
+}
+.manage__item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.manage__item + .manage__item{
+  margin-top: 168px;
+}
+.manage__item:nth-child(2){
+  flex-direction: row-reverse;
+}
+.manage__box{
+  max-width: 486px;
+  width: 100%;
+}
+.manage__name{
+  margin-bottom: 12px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #22343D;
+}
+.manage__title{
+  margin-bottom: 23px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #22343D;
+}
+.manage__text{
+  position: relative;
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #22343D;
+}
+.yellow{
+  padding-left: 75px;
+}
+.yellow::before{
+  position: absolute;
+  bottom: 10px;
+  left: 0px;
+  content: "";
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #FF9900;
+  border-radius: 13.8542px;
+  background-image: url(../img/tick.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.red{
+  padding-left: 75px;
+}
+.red::before{
+  position: absolute;
+  bottom: 10px;
+  left: 0px;
+  content: "";
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #F03E3D;
+  border-radius: 13.8542px;
+  background-image: url(../img/tick.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.blue{
+  padding-left: 75px;
+}
+.blue::before{
+  position: absolute;
+  bottom: 10px;
+  left: 0px;
+  content: "";
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #4D8DFF;
+  border-radius: 13.8542px;
+  background-image: url(../img/tick.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media only screen and (max-width:900px){
+  .manage__item{
+    flex-direction: column-reverse;
+  }
+  .manage__item + .manage__item{
+    margin-top: 100px;
+  }
+  .manage__item:nth-child(2){
+    flex-direction: column-reverse;
+  }
+  .manage__img{
+    margin-bottom: 50px;
+  }
+}
+@media only screen and (max-width:560px){
+  .manage{
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .manage__img{
+    width: 100%;
+    height: 319px;
+  }
+  .manage__name{
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .manage__title{
+    font-size: 32px;
+    line-height: 48px;
+  }
+  .manage__text{
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .yellow::before{
+    bottom: 25px;
+  }
+  .red::before{
+    bottom: 25px;
+  }
+  .blue::before{
+    bottom: 25px;
+  }
+}

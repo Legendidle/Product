@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+img{
+  vertical-align: middle;
+}
+body{
+  position: relative;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #22343D;
+}
+h1, h2, h3, h4, h5, h6, ul, p{
+   margin: 0px;
+   padding: 0px;
+}
