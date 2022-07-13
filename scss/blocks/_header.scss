@@ -78,6 +78,9 @@
 }
 
 @media only screen and (max-width:950px){
+  .header{
+    padding-bottom: 250px;
+  }
   .checkbox {
     position: relative;
     left: -28px;
@@ -110,8 +113,12 @@
     top: -20px;
     cursor: pointer;
   }
+  .checkbox__input:checked ~ .header{
+    padding-bottom: 250px;
+    display: block;
+  }
   .checkbox__input:checked ~ .header__checkbox-box {
-    top: 60px;
+    top: 50px;
     opacity: 1;
     left: 50%;
     transform: translate(-50%);
