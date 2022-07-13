@@ -472,9 +472,6 @@ h1, h2, h3, h4, h5, h6, ul, p {
 }
 
 @media only screen and (max-width: 950px) {
-  .header {
-    padding-bottom: 250px;
-  }
   .checkbox {
     position: relative;
     left: -28px;
@@ -507,15 +504,15 @@ h1, h2, h3, h4, h5, h6, ul, p {
     top: -20px;
     cursor: pointer;
   }
-  .checkbox__input:checked ~ .header {
-    padding-bottom: 250px;
-    display: block;
-  }
   .checkbox__input:checked ~ .header__checkbox-box {
     top: 50px;
     opacity: 1;
+    z-index: 1;
     left: 50%;
     transform: translate(-50%);
+    background-color: #02897A;
+    border-radius: 20px;
+    padding: 20px;
   }
   .checkbox__input:checked ~ .checkbox::before {
     display: inline;
