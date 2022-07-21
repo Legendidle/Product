@@ -1,7 +1,11 @@
 .header{
-  background-color: #FAFAFA;
   padding-top: 19px;
   padding-bottom: 18px;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  border-bottom: 3px solid gray;
+  z-index: 10;
 }
 .header__inner{
   position: relative;

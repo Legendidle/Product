@@ -380,9 +380,13 @@ h1, h2, h3, h4, h5, h6, ul, p {
 }
 
 .header {
-  background-color: #FAFAFA;
   padding-top: 19px;
   padding-bottom: 18px;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  border-bottom: 3px solid gray;
+  z-index: 10;
 }
 
 .header__inner {
@@ -553,7 +557,6 @@ h1, h2, h3, h4, h5, h6, ul, p {
   }
 }
 .intro {
-  background-color: #FAFAFA;
   padding-top: 25px;
   padding-bottom: 115px;
 }
@@ -668,7 +671,6 @@ h1, h2, h3, h4, h5, h6, ul, p {
 }
 .spec {
   padding-bottom: 90px;
-  background-color: #FAFAFA;
 }
 
 .spec__inner {
