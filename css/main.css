@@ -1538,4 +1538,140 @@ h1, h2, h3, h4, h5, h6, ul, p {
   .boost__img {
     height: 250px;
   }
+}
+.footer {
+  padding-bottom: 10px;
+}
+
+.footer__inside {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.footer__describe {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #22343D;
+  text-align: center;
+}
+
+.footer__logo-box {
+  width: 163px;
+  margin-right: 160px;
+}
+
+.footer__logo {
+  display: inline-block;
+  margin-bottom: 28px;
+}
+
+.networks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.networks__item {
+  list-style: none;
+}
+
+.box__title {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #22343D;
+  margin-bottom: 8px;
+}
+
+.box__list {
+  list-style: none;
+}
+
+.box__title {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #22343D;
+  margin-bottom: 8px;
+}
+
+.box__list {
+  list-style: none;
+}
+
+.box__link {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 35px;
+  color: #22343D;
+  text-decoration: none;
+}
+
+.form-box__title-case {
+  display: inline-block;
+  width: 280px;
+}
+
+.form-box__title {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #22343D;
+  margin-bottom: 24px;
+}
+
+.form__label {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.form__input {
+  width: 100%;
+  max-width: 325px;
+  background: #FFFFFF;
+  border: 1px solid #BCD0E5;
+  border-radius: 4px;
+  padding: 10px 0px 10px 15px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #22343D;
+}
+
+.form__button {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  border: none;
+  background-color: #02897A;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 950px) {
+  .footer__inside {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer__logo-box {
+    margin: 0 auto;
+    margin-bottom: 32px;
+  }
+  .footer__link-box {
+    margin-bottom: 32px;
+  }
+  .footer__form-box {
+    margin-bottom: 44px;
+  }
 }/*# sourceMappingURL=main.css.map */
