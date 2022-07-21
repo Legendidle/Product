@@ -1,0 +1,126 @@
+.price{
+  padding-bottom: 150px;
+}
+.price__inner{
+  text-align: center;
+}
+.price__title{
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 51px;
+  color: #22343D;
+}
+.price__text{
+  margin-bottom: 50px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #22343D;
+}
+.price__list{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: 0.3s ease;
+}
+.price__item{
+  padding-top: 24px;
+  padding-bottom: 32px;
+  padding-left: 70px;
+  padding-right: 70px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+.price__item-title{
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+  color: #22343D;
+}
+.price__item-text{
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  color: #22343D;
+}
+.price__box{
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 100px;
+  letter-spacing: 0.2px;
+  color: #02897A;
+}
+.price__box-sup{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+}
+.price__box-sub{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1px;
+  color: #AFAFAF;
+}
+.price__link{
+  padding: 11px 18px;
+  margin-top: 38px;
+  text-decoration: none;
+  background-color: #02897A;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+.price__item:hover{
+  background: #02897A;
+  transition: 0.5s ease;
+}
+.price__item:hover .price__item-title{
+  color: #FFFFFF;
+}
+.price__item:hover .price__item-text{
+  color: #FFFFFF;
+}
+.price__item:hover .price__box{
+  color: #FFFFFF;
+}
+.price__item:hover .price__box-sub{ 
+  color: #E0E0E0;
+}
+.price__item:hover .price__link{
+  color: #02897A;
+  background-color: #FFFFFF;
+}
+
+@media only screen and (max-width:1024px){
+  .price{
+    padding-bottom: 100px;
+  }
+  .price__list{
+    flex-direction: column;
+  }
+  .price__item + .price__item{
+    margin-top: 32px;
+  }
+}
+@media only screen and (max-width:370px){
+  .price__box{
+    font-size: 50px;
+  }
+  .price__box-sup{
+    font-size: 18px;
+  }
+  .price__box-sub{
+    font-size: 10px;
+  }
+}
